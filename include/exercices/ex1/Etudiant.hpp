@@ -11,8 +11,6 @@
  * Il permet de créer une classe Etudiant héritant la classe Personne, de lui affecter des valeurs, de les afficher et de détruire la classe.
  */
 namespace TP::EX1 {
-	
-	
 	/**
 	 * @class Etudiant
 	 * @brief Classe Etudiant

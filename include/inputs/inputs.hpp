@@ -7,8 +7,8 @@
 /**
  * @brief Permet d'entrer un flottant.
  *
- * Prend une chaîne et deux flottants comme arguments. Demande à l'utilisateur d'entrer un nombre. Si le nombre
- * est compris entre les deux entiers, il renvoie le nombre. Si ce n'est pas le cas, demande à l'utilisateur de saisir à
+ * Prend une chaîne et deux flottants comme arguments. Demande à l'utilisateur d'entrer un nombre flottant. Si le nombre
+ * est compris entre les deux flottants, renvoie le nombre. Si ce n'est pas le cas, demande à l'utilisateur de saisir à
  * nouveau un nombre.
  *
  * @param message Le message à afficher à l'utilisateur.
