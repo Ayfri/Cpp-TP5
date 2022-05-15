@@ -69,7 +69,7 @@ static auto add_print_before_running_exercice(const std::function<void()> &funct
 
 void TP::Menu::show_graphical_menu() {
 	auto menu = new ::Menu(
-			"tp4 poo - ynov aix",
+			"tp " + std::to_string(TP::TP_NUMBER) + " poo - ynov aix",
 			std::vector<std::string>{"roy pierre", "borello benjamin"},
 			std::vector<std::function<void()>>{
 					add_print_before_running_exercice(TP::EX1::ex1, 1),

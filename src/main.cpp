@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 	SetConsoleOutputCP(65001U);
 #endif
 	
-	std::cout << "Bienvenue dans le TP 4 !" << '\n';
+	std::cout << "Bienvenue dans le TP " << TP::TP_NUMBER << " !" << '\n';
 	
 	const auto use_graphic_interface = TP::Menu::menu_choose_use_graphical_interface();
 	

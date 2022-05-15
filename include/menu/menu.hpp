@@ -15,6 +15,11 @@ namespace TP {
 	static constexpr auto EXERCICES_NUMBER = 2U;
 	
 	/**
+	 * @brief Numéro du TP.
+	 */
+	static constexpr auto TP_NUMBER = 5U;
+	
+	/**
 	 * @brief Texte oui.
 	 *
 	 * Texte utilisé pour la confirmation dans un menu de console.
