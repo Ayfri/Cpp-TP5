@@ -1,6 +1,5 @@
-#include <sstream>
-#include "exercices/menu.hpp"
-#include "../../libs/SDL-Menu/src/Menu/Menu.h"
+#include "menu/menu.hpp"
+
 
 void TP::Menu::runExercice(const int &n) {
 	if (n < 0 || n > TP::EXERCICES_NUMBER) {

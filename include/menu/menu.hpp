@@ -2,9 +2,11 @@
 
 #include <conio.h>
 #include <iostream>
+#include <sstream>
 #include "exercices/ex1/ex1.hpp"
 #include "exercices/ex2/ex2.hpp"
 #include "utils/utils.hpp"
+#include "../../libs/SDL-Menu/src/Menu/Menu.h"
 
 namespace TP {
 	/**
@@ -61,6 +63,7 @@ namespace TP {
 		 * Cette fonction ouvre un menu pour choisir d'utiliser l'interface graphique ou non.
 		 */
 		static bool menu_choose_use_graphical_interface();
+	
 	private:
 		/**
 		 * Prend un entier en entrée et exécute l'exercice correspondant.

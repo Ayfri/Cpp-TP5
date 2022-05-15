@@ -22,6 +22,8 @@ namespace TP::EX1 {
 	 */
 	class Etudiant : public Personne {
 	public:
+		using Personne::Personne;
+		
 		/**
 		 * @brief La note minimale.
 		 *

@@ -1,9 +1,9 @@
 #include "exercices/ex1/Etudiant.hpp"
 
 void TP::EX1::Etudiant::afficherNotes() const {
-	std::cout << "Moyenne: " << getMoyenne() << '\n';
-	std::cout << "Note la plus haute : " << getMaxNote() << '\n';
-	std::cout << "Note la plus basse : " << getMinNote() << '\n';
+	std::cout << "Moyenne : " << getMoyenne() << "/" << MAX_NOTE << '\n';
+	std::cout << "Note la plus haute : " << getMaxNote() << "/" << MAX_NOTE << '\n';
+	std::cout << "Note la plus basse : " << getMinNote() << "/" << MAX_NOTE << '\n';
 }
 
 float TP::EX1::Etudiant::getMoyenne() const  noexcept {

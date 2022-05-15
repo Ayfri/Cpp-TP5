@@ -1,11 +1,10 @@
-#include <../libs/SDL-Menu/src/Menu/Menu.h>
 #include <iostream>
+#include "../libs/SDL-Menu/src/Menu/Menu.h"
+#include "menu/menu.hpp"
 
-#include "exercices/menu.hpp"
 
 #ifdef _WIN32
 #include <windows.h>
-
 #endif
 
 int main(int argc, char *argv[]) {
